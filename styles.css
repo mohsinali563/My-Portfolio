@@ -1,0 +1,209 @@
+body{
+    background-color:#000;
+}
+p{
+    color: #fff;
+    padding-left: 9%;
+    opacity: 80%;
+}
+h6{
+    color: #fff;
+    display: inline-block;
+    padding-right:85%;
+}
+
+#Home{
+margin-bottom: 100px;
+}
+#skills{
+    margin: 100px 0 100px 0;
+    text-align: center;
+}
+#contact{
+    text-align: center;
+   
+}
+#projects{
+    text-align: center;
+    margin: 100px 0;
+}
+
+.link{
+ color: gray;
+ opacity: 70%;
+}
+
+.link:hover{
+    color: ghostwhite;
+}
+
+.brand{
+    color: antiquewhite;    
+    font-weight: bold;
+    position: relative;
+    right: 320px;
+}
+.C-green{
+    color: #16FF00;
+}
+.brand:hover{
+    color:antiquewhite;
+}
+.social{
+    position: relative;
+    left: 320px;
+
+}
+.social-link{
+    padding: 0 5px 0 5px;
+}
+.profile-img{
+    position: relative;
+    left:40%;
+}
+.heading{
+    text-align: center;
+    padding:12% 43% 0 0;
+    color:#fff;
+    font-size: 3.4375rem;
+
+}
+.sub{
+    color: #12d301;
+    font-weight: 100;
+    padding: 0 0 0 9%;
+}
+.btn-work{
+    margin-left: 9%;
+    padding: 5px  25px;
+    font-weight: 500;
+}
+/* About me section */
+
+.code{
+    text-align: center;
+    height: 100%;
+    width: 70%;
+    margin-left:30px ;
+}
+
+.about{
+    color: #fff;
+    margin-left: 9%;
+}
+.discrip{
+    opacity: 80%;
+}
+
+/* skills-section */
+
+.skill-head{
+    color: #fff;
+}
+.head-div{
+    margin-bottom: 70px;
+}
+
+.loading-line-container {
+    position: relative;
+    height: 20px;
+    background-color: white;
+    margin: 5px 0;
+  }
+  
+  .loading-progress {
+    position: absolute;
+    height: 100%;
+    background-color: green;
+  }
+  
+  .percentage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2px 5px;
+    background-color: black;
+    color: white;
+  }
+  
+  @keyframes fillLoadingLine {
+    from {
+      width: 0;
+    }
+  }
+
+  /* contact-section */
+  .contact-head{
+   color: #fff;
+  }
+  .icon{
+    color: #12d301;
+    display: block;
+ }
+
+ /* project-section */
+ .project-dis{
+    margin-bottom: 100px;
+ }
+ .project-head{
+    color: #fff;
+ }
+/* sectioncontact */
+.contact-box{
+    margin-bottom: 100px;
+}
+ .row {
+    padding: 20px;
+  }
+  .col-lg-6 {
+    padding: 10px;
+  }
+  .social-linked {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .social-link {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    color: #fff;
+  }
+  .social-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: white;
+  }
+ 
+  .contact-form {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .form-control {
+    background-color: transparent;
+    color: white;
+    border: 1px solid transparent;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+  }
+  .form-control:focus {
+    border-color: lightgreen;
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.5);
+  }
+  .submit-button {
+    outline: 2px solid green;
+    border: none;
+    margin: 10px 0 0 20px;
+    background-color: transparent;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .submit-button:hover {
+    background-color: green;
+  }
+
+
+ 
